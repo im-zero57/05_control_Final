@@ -10,8 +10,7 @@ int main(int argc, char *argv[]) {
 	scanf("%d",&input);
 	
 	if (input>0)
-		printf("양수입니다.\n");
+		printf("|절댓값|= %d", input);
 	else
-		printf("음수입니다.\n");	
-	return 0;
+		printf("|절댓값|= %d", -input);
 }
